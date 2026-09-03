@@ -19,6 +19,13 @@
 \definecolor{bgwhite}{HTML}{FFFFFF}
 \definecolor{textdark}{HTML}{1A1A2E}
 
+% ── Variables del Proyecto (Edítalas aquí) ─────────────────────────────────────
+\newcommand{\materia}{Python Programming}
+\newcommand{\profesor}{Dr. Fares Fraij}
+\newcommand{\alumnoA}{Juan Pablo Martin Hurtado jpm5539}
+\newcommand{\alumnoB}{Esteban Daniel Marcellan Medina edm3226}
+\newcommand{\alumnoC}{Santiago Basaldua Ramirez sb74887}
+
 % ── Theme ──────────────────────────────────────────────────────────────────────
 \usetheme{default}
 \setbeamercolor{background canvas}{bg=bgwhite}
@@ -44,7 +51,7 @@
     \hspace{8pt}
     {\scriptsize\color{utgray}
       \currentspeaker
-      \quad\textbar\quad [MATERIA] \quad\textbar\quad UT Austin
+      \quad\textbar\quad \resizebox{!}{1ex}{\materia} \quad\textbar\quad UT Austin
     }
     \hfill
     {\scriptsize\color{utgray}\insertframenumber\hspace{8pt}}
@@ -79,44 +86,44 @@
 \hidefooter
 \begin{frame}[plain]
   \begin{tikzpicture}[remember picture, overlay]
-    \fill[utred] (current page.north west) rectangle ++(0.18\paperwidth, -\paperheight);
-    \fill[utlightblue] ([xshift=0.18\paperwidth]current page.north west)
-      rectangle ++(0.012\paperwidth, -\paperheight);
+    \fill[utred] (current page.north west) rectangle ++(0.08\paperwidth, -\paperheight);
+    \fill[utlightblue] ([xshift=0.08\paperwidth]current page.north west)
+      rectangle ++(0.01\paperwidth, -\paperheight);
   \end{tikzpicture}
 
-  \hspace{0.22\paperwidth}
-  \begin{minipage}{0.72\paperwidth}
-    \vspace{1.6cm}
+  \begin{columns}[T]
+    \column{0.08\textwidth}
+    % Espacio
+    \column{0.88\textwidth}
+      \vspace*{0.5cm}
 
-    {\scriptsize\color{utgray}\textbf{THE UNIVERSITY OF TEXAS AT AUSTIN}}
-    \vspace{0.25cm}
+      {\scriptsize\color{utgray}\textbf{THE UNIVERSITY OF TEXAS AT AUSTIN}}
+      \vspace{0.15cm}
 
-    {\LARGE\bfseries\color{utblue} Water Consumption\\[4pt] Tracker}
-    \vspace{0.25cm}
+      {\LARGE\bfseries\color{utblue} Water Consumption\\[4pt] Tracker}
+      \vspace{0.15cm}
 
-    \begin{tikzpicture}
-      \draw[utred, line width=2pt] (0,0) -- (1.2,0);
-      \draw[utlightblue, line width=2pt] (1.25,0) -- (1.85,0);
-    \end{tikzpicture}
+      \begin{tikzpicture}
+        \draw[utred, line width=2pt] (0,0) -- (1.2,0);
+        \draw[utlightblue, line width=2pt] (1.25,0) -- (1.85,0);
+      \end{tikzpicture}
 
-    \vspace{0.35cm}
-    {\small\color{textdark}
-      Industrial water monitoring, anomaly detection\\
-      and remote data entry via Telegram.
-    }
+      \vspace{0.25cm}
+      {\small\color{textdark}
+        Industrial water monitoring, anomaly detection\\
+        and remote data entry via Telegram.
+      }
 
-    \vspace{0.7cm}
-    \begin{tabular}{ll}
-      {\scriptsize\color{utgray} Course}    & {\small\color{textdark} [MATERIA]}    \\[4pt]
-      {\scriptsize\color{utgray} Professor} & {\small\color{textdark} [PROFESOR]}   \\[8pt]
-      {\scriptsize\color{utgray} Team}      & {\small\color{textdark} [ALUMNO 1]}   \\
-                                            & {\small\color{textdark} [ALUMNO 2]}   \\
-                                            & {\small\color{textdark} [ALUMNO 3]}   \\
-    \end{tabular}
+      \vspace{0.4cm}
+      \begin{tabular}{p{0.12\textwidth} p{0.75\textwidth}}
+        {\scriptsize\color{utgray} Course}    & {\scriptsize\color{textdark} \materia}    \\[2pt]
+        {\scriptsize\color{utgray} Professor} & {\scriptsize\color{textdark} \profesor}   \\[4pt]
+        {\scriptsize\color{utgray} Team}      & {\scriptsize\color{textdark} \alumnoA}    \\
+                                              & {\scriptsize\color{textdark} \alumnoB}    \\
+                                              & {\scriptsize\color{textdark} \alumnoC}    \\
+      \end{tabular}
 
-    \vspace{0.5cm}
-    {\scriptsize\color{utgray} Fall 2026}
-  \end{minipage}
+  \end{columns}
 \end{frame}
 
 % ════════════════════════════════════════════════════════════════════════════════
@@ -169,7 +176,7 @@
 % ════════════════════════════════════════════════════════════════════════════════
 %  3. THE PROBLEM
 % ════════════════════════════════════════════════════════════════════════════════
-\setspeaker{[ALUMNO SLIDE 3]}
+\setspeaker{\alumnoA}
 \begin{frame}{The Problem}
   \accentrule
   \begin{columns}[T]
@@ -203,7 +210,7 @@
 % ════════════════════════════════════════════════════════════════════════════════
 %  4. OUR SOLUTION
 % ════════════════════════════════════════════════════════════════════════════════
-\setspeaker{[ALUMNO SLIDE 4]}
+\setspeaker{\alumnoA}
 \begin{frame}{Our Solution}
   \accentrule
   \begin{columns}[T]
@@ -221,7 +228,7 @@
       {\small\color{utgray} Python $\cdot$ Streamlit $\cdot$ Telegram API}
 
     \column{0.48\textwidth}
-      \includegraphics[width=\linewidth,height=5cm,keepaspectratio]%
+      \includegraphics[width=\linewidth]%
         {Fotos/Screenshot From 2026-09-02 19-03-56.png}
       \piefig{Fig. 1 --- Dashboard overview: navigation panel and KPI chart.}
   \end{columns}
@@ -230,7 +237,7 @@
 % ════════════════════════════════════════════════════════════════════════════════
 %  5. KPI TRACKING
 % ════════════════════════════════════════════════════════════════════════════════
-\setspeaker{[ALUMNO SLIDE 5]}
+\setspeaker{\alumnoA}
 \begin{frame}{KPI Tracking}
   \accentrule
   \begin{columns}[T]
@@ -253,7 +260,7 @@
 % ════════════════════════════════════════════════════════════════════════════════
 %  6. ANOMALY DETECTION
 % ════════════════════════════════════════════════════════════════════════════════
-\setspeaker{[ALUMNO SLIDE 6]}
+\setspeaker{\alumnoB}
 \begin{frame}{Anomaly Detection}
   \accentrule
   \begin{columns}[T]
@@ -277,7 +284,7 @@
 % ════════════════════════════════════════════════════════════════════════════════
 %  7. SHIFT TIMELINE
 % ════════════════════════════════════════════════════════════════════════════════
-\setspeaker{[ALUMNO SLIDE 7]}
+\setspeaker{\alumnoB}
 \begin{frame}{Shift Timeline}
   \accentrule
   \begin{columns}[T]
@@ -301,11 +308,11 @@
 % ════════════════════════════════════════════════════════════════════════════════
 %  8. TELEGRAM
 % ════════════════════════════════════════════════════════════════════════════════
-\setspeaker{[ALUMNO SLIDE 8]}
+\setspeaker{\alumnoB}
 \begin{frame}{Mobile Data Entry via Telegram}
   \accentrule
   \begin{columns}[T]
-    \column{0.44\textwidth}
+    \column{0.48\textwidth}
       \vspace{0.2cm}
       {\color{utblue}\textbf{No app installation needed}}
       \vspace{0.3cm}
@@ -315,15 +322,15 @@
         \vspace{3pt}
         \begin{itemize}
           \item {\scriptsize\texttt{21, 280, 80.5, 90.5}}
-          \item {\scriptsize\texttt{semana 21 / total 280 / area1 80.5}}
+          \item {\scriptsize\texttt{sem 21 / total 280 / area1 80.5}}
         \end{itemize}
         \vspace{3pt}
         \item Dashboard \textbf{fetches on demand}
         \item Data previewed, then \textbf{saved with one click}
       \end{itemize}
 
-    \column{0.52\textwidth}
-      \includegraphics[width=\linewidth,height=5.4cm,keepaspectratio]%
+    \column{0.48\textwidth}
+      \includegraphics[width=\linewidth]%
         {Fotos/Screenshot From 2026-09-02 19-03-23.png}
       \piefig{Fig. 5 --- Telegram bot and import panel side by side.}
   \end{columns}
@@ -332,7 +339,7 @@
 % ════════════════════════════════════════════════════════════════════════════════
 %  9. SIMULATION
 % ════════════════════════════════════════════════════════════════════════════════
-\setspeaker{[ALUMNO SLIDE 9]}
+\setspeaker{\alumnoC}
 \begin{frame}{What-If Simulation}
   \accentrule
   \begin{columns}[T]
@@ -357,13 +364,13 @@
 % ════════════════════════════════════════════════════════════════════════════════
 %  10. SUMMARY
 % ════════════════════════════════════════════════════════════════════════════════
-\setspeaker{[ALUMNO SLIDE 10]}
+\setspeaker{\alumnoC}
 \begin{frame}{Summary}
   \accentrule
   \vspace{0.2cm}
   \begin{columns}[T]
     \column{0.55\textwidth}
-      \begin{tabular}{p{0.40\textwidth} p{0.48\textwidth}}
+      \begin{tabular}{l l}
         \toprule
         \textbf{\color{utblue}Feature} & \textbf{\color{utblue}Capability} \\
         \midrule
@@ -399,11 +406,18 @@
 \hidefooter
 \begin{frame}[plain]
   \begin{tikzpicture}[remember picture, overlay]
-    \fill[utblue] (current page.south west) rectangle ++(\paperwidth,{0.22\paperheight});
+    \fill[utblue] (current page.south west) rectangle ++(\paperwidth,{0.35\paperheight});
     \fill[utred]  (current page.south west) rectangle ++(\paperwidth,{0.04\paperheight});
+    
+    \node[anchor=south, text width=0.9\paperwidth, align=center] at ([yshift=0.06\paperheight]current page.south) {
+      {\scriptsize\color{bgwhite} \alumnoA} \\[2pt]
+      {\scriptsize\color{bgwhite} \alumnoB} \\[2pt]
+      {\scriptsize\color{bgwhite} \alumnoC} \\[6pt]
+      {\scriptsize\color{bgwhite} \materia \quad\textbar\quad UT Austin}
+    };
   \end{tikzpicture}
 
-  \vspace{1.2cm}
+  \vspace{0.8cm}
   \begin{center}
     {\Huge\bfseries\color{utblue} Thank You}
 
@@ -415,14 +429,6 @@
 
     \vspace{0.4cm}
     {\color{utgray}\small Questions?}
-
-    \vspace{2.0cm}
-    {\scriptsize\color{bgwhite}
-      [ALUMNO 1] \quad$\cdot$\quad [ALUMNO 2] \quad$\cdot$\quad [ALUMNO 3]
-    }
-    {\scriptsize\color{bgwhite}
-      \quad\textbar\quad [MATERIA] \quad\textbar\quad UT Austin
-    }
   \end{center}
 \end{frame}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.18)  2 SEP 2026 19:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.18)  2 SEP 2026 20:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -597,7 +597,7 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@lastruleclass=\count371
 \@thisrulewidth=\dimen329
 )
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 74.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 81.
  (/home/sbr/.TinyTeX/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 ) (/home/sbr/.TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -606,24 +606,24 @@ File: l3backend-pdftex.def 2026-07-20 L3 backend support: PDF output (pdfTeX)
 ) (./presentation.aux)
 \openout1 = `presentation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -665,53 +665,53 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/home/sbr/.TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 74.
+Package hyperref Info: Link coloring OFF on input line 81.
  (./presentation.out) (./presentation.out)
 \@outlinefile=\write5
 \openout5 = `presentation.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 74.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 81.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 74.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 81.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 74.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 74.
+(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 81.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 81.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/phv/b/n on input line 74.
+(Font)                  OT1/cmr/bx/n --> T1/phv/b/n on input line 81.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/phv/b/n on input line 74.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 74.
+(Font)                  OT1/cmr/bx/n --> T1/phv/b/n on input line 81.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 81.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/phv/m/n on input line 74.
+(Font)                  OT1/cmss/m/n --> T1/phv/m/n on input line 81.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/phv/m/n on input line 74.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 74.
+(Font)                  OT1/cmss/bx/n --> T1/phv/m/n on input line 81.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 81.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/phv/m/it on input line 74.
+(Font)                  OT1/cmr/m/it --> T1/phv/m/it on input line 81.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/phv/m/it on input line 74.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 74.
+(Font)                  OT1/cmr/bx/it --> T1/phv/m/it on input line 81.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 81.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 74.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 81.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 74.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 81.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/phv/m/n --> T1/phv/b/n on input line 74.
+(Font)                  T1/phv/m/n --> T1/phv/b/n on input line 81.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/phv/m/it --> T1/phv/b/it on input line 74.
+(Font)                  T1/phv/m/it --> T1/phv/b/it on input line 81.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> T1/cmr/b/n on input line 74.
+(Font)                  OT1/cmss/b/n --> T1/cmr/b/n on input line 81.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/phv/b/n --> T1/phv/b/n on input line 74.
+(Font)                  T1/phv/b/n --> T1/phv/b/n on input line 81.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/phv/m/n --> T1/phv/b/n on input line 74.
+(Font)                  T1/phv/m/n --> T1/phv/b/n on input line 81.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/phv/m/it --> T1/phv/b/it on input line 74.
+(Font)                  T1/phv/m/it --> T1/phv/b/it on input line 81.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/cmtt/m/n --> T1/cmtt/b/n on input line 74.
+(Font)                  T1/cmtt/m/n --> T1/cmtt/b/n on input line 81.
  (/home/sbr/.TinyTeX/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (/home/sbr/.TinyTeX/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
@@ -725,51 +725,47 @@ Dictionary: translator-numbers-dictionary, Language: English
 ) (/home/sbr/.TinyTeX/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 ) (./presentation.nav)
-LaTeX Font Info:    Trying to load font information for U+msa on input line 120.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 127.
  (/home/sbr/.TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 120.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 127.
  (/home/sbr/.TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 120.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 127.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 120.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 127.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 120.
-
-Overfull \vbox (33.51382pt too high) detected at line 120
- []
-
-[1
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 127.
+ [1
 
 {/home/sbr/.TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/home/sbr/.TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}] [2
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 201.
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 208.
  (/home/sbr/.TinyTeX/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 201.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 208.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 201.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 208.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 201.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 208.
  [3
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <5> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 228.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 235.
 <Fotos/Screenshot From 2026-09-02 19-03-56.png, id=32, 1927.2pt x 1084.05pt>
 File: Fotos/Screenshot From 2026-09-02 19-03-56.png Graphic file (type png)
 <use Fotos/Screenshot From 2026-09-02 19-03-56.png>
-Package pdftex.def Info: Fotos/Screenshot From 2026-09-02 19-03-56.png  used on input line 228.
-(pdftex.def)             Requested size: 191.17273pt x 107.53465pt.
+Package pdftex.def Info: Fotos/Screenshot From 2026-09-02 19-03-56.png  used on input line 235.
+(pdftex.def)             Requested size: 191.20082pt x 107.53465pt.
 
-Overfull \vbox (3.61504pt too high) detected at line 228
+Overfull \vbox (3.73105pt too high) detected at line 235
  []
 
 [4
@@ -777,7 +773,7 @@ Overfull \vbox (3.61504pt too high) detected at line 228
  <./Fotos/Screenshot From 2026-09-02 19-03-56.png>]
 File: Fotos/Screenshot From 2026-09-02 19-03-56.png Graphic file (type png)
 <use Fotos/Screenshot From 2026-09-02 19-03-56.png>
-Package pdftex.def Info: Fotos/Screenshot From 2026-09-02 19-03-56.png  used on input line 251.
+Package pdftex.def Info: Fotos/Screenshot From 2026-09-02 19-03-56.png  used on input line 258.
 (pdftex.def)             Requested size: 191.20082pt x 107.53465pt.
  [5
 
@@ -785,7 +781,7 @@ Package pdftex.def Info: Fotos/Screenshot From 2026-09-02 19-03-56.png  used on 
 <Fotos/Screenshot From 2026-09-02 19-04-07.png, id=46, 1927.2pt x 1084.05pt>
 File: Fotos/Screenshot From 2026-09-02 19-04-07.png Graphic file (type png)
 <use Fotos/Screenshot From 2026-09-02 19-04-07.png>
-Package pdftex.def Info: Fotos/Screenshot From 2026-09-02 19-04-07.png  used on input line 275.
+Package pdftex.def Info: Fotos/Screenshot From 2026-09-02 19-04-07.png  used on input line 282.
 (pdftex.def)             Requested size: 191.20082pt x 107.53465pt.
  [6
 
@@ -793,7 +789,7 @@ Package pdftex.def Info: Fotos/Screenshot From 2026-09-02 19-04-07.png  used on 
 <Fotos/Screenshot From 2026-09-02 19-04-18.png, id=53, 1927.2pt x 1084.05pt>
 File: Fotos/Screenshot From 2026-09-02 19-04-18.png Graphic file (type png)
 <use Fotos/Screenshot From 2026-09-02 19-04-18.png>
-Package pdftex.def Info: Fotos/Screenshot From 2026-09-02 19-04-18.png  used on input line 299.
+Package pdftex.def Info: Fotos/Screenshot From 2026-09-02 19-04-18.png  used on input line 306.
 (pdftex.def)             Requested size: 199.1693pt x 112.01733pt.
  [7
 
@@ -801,31 +797,21 @@ Package pdftex.def Info: Fotos/Screenshot From 2026-09-02 19-04-18.png  used on 
 <Fotos/Screenshot From 2026-09-02 19-03-23.png, id=61, 1927.2pt x 1084.05pt>
 File: Fotos/Screenshot From 2026-09-02 19-03-23.png Graphic file (type png)
 <use Fotos/Screenshot From 2026-09-02 19-03-23.png>
-Package pdftex.def Info: Fotos/Screenshot From 2026-09-02 19-03-23.png  used on input line 330.
-(pdftex.def)             Requested size: 207.11115pt x 116.50002pt.
+Package pdftex.def Info: Fotos/Screenshot From 2026-09-02 19-03-23.png  used on input line 337.
+(pdftex.def)             Requested size: 191.20082pt x 107.53465pt.
  [8
 
  <./Fotos/Screenshot From 2026-09-02 19-03-23.png>]
 <Fotos/Screenshot From 2026-09-02 19-04-25.png, id=69, 1927.2pt x 1084.05pt>
 File: Fotos/Screenshot From 2026-09-02 19-04-25.png Graphic file (type png)
 <use Fotos/Screenshot From 2026-09-02 19-04-25.png>
-Package pdftex.def Info: Fotos/Screenshot From 2026-09-02 19-04-25.png  used on input line 355.
+Package pdftex.def Info: Fotos/Screenshot From 2026-09-02 19-04-25.png  used on input line 362.
 (pdftex.def)             Requested size: 183.23842pt x 103.06853pt.
  [9
 
  <./Fotos/Screenshot From 2026-09-02 19-04-25.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 394--394
-[]\T1/phv/m/n/10.95 Anomaly de-tec-
- []
-
-
-Underfull \hbox (badness 3375) in paragraph at lines 394--394
-[]\T1/phv/m/n/10.95 3 con-fig-urable area
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 394--394
-[]\T1/phv/m/n/10.95 Annual im-pact
+Overfull \hbox (22.79279pt too wide) in paragraph at lines 401--401
+[][]  
  []
 
 [10
@@ -851,18 +837,18 @@ Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 24768 strings out of 469149
- 487839 string characters out of 5460013
- 866209 words of memory out of 5000000
- 53284 multiletter control sequences out of 15000+600000
+ 24773 strings out of 469149
+ 487875 string characters out of 5460013
+ 865360 words of memory out of 5000000
+ 53289 multiletter control sequences out of 15000+600000
  689716 words of font info for 113 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  101i,16n,107p,388b,996s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </home/sbr/.texlive2026/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt0800.600pk></home/sbr/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/sbr/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/sbr/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></home/sbr/.TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></home/sbr/.TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></home/sbr/.TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on presentation.pdf (11 pages, 961752 bytes).
+ </home/sbr/.texlive2026/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt0800.600pk></home/sbr/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/sbr/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></home/sbr/.TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></home/sbr/.TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></home/sbr/.TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on presentation.pdf (11 pages, 954545 bytes).
 PDF statistics:
- 143 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
+ 137 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
  23 named destinations out of 1000 (max. 500000)
  68 words of extra memory for PDF output out of 10000 (max. 10000000)
 
